@@ -2,6 +2,10 @@
 
 부동산 공인중개사가 네이버 블로그용 정보성 원고를 단계별로 작성·검토하는 Windows 친화적 로컬 웹앱입니다. 특정 검색 순위나 노출을 보장하지 않습니다.
 
+## 공개 웹사이트
+
+GitHub Pages 주소: `https://sengjengml.github.io/suseong-geumbit-blog-studio/`
+
 ## 설치와 실행 (Windows 11)
 
 PowerShell에서 다음 명령을 실행합니다.
