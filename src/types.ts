@@ -1,0 +1,4 @@
+export type Source={id:string;title:string;organization:string;publishedAt:string;url:string;excerpt:string;verified:boolean};
+export type OutlineSection={id:string;heading:string;notes:string;imageIdea:string};
+export type EvaluationItem={name:string;max:number;score:number;reason:string;fix:string};
+export type Draft={id:string;createdAt:string;updatedAt:string;author:string;topic:string;title:string;titles:string[];audience:string;keywords:string[];emphasis:string[];tone:string;experienceMemo:string;sources:Source[];informationDate:string;targetLength:number;office:{name:string;address:string;representative:string;phone:string;registration:string;position:string};outline:OutlineSection[];article:string;evaluation:{items:EvaluationItem[];total:number;grade:string;topFixes:string[]}|null;status:'초안'|'완료'};
